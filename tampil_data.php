@@ -8,6 +8,7 @@
     <div class="container">
         <h1 class="mt-4 mb-4">CRUD Mahasiswa</h1>
         <?php
+        include "koneksi.php";
         $sql="SELECT * FROM mahasiswa";
         $result=mysqli_query($link, $sql);
         ?>

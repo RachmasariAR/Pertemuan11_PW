@@ -1,4 +1,4 @@
 <?php
-$link = msqli_connect("localhost", "root","");
+$link = mysqli_connect("localhost", "root","");
 mysqli_select_db($link, "crud_mhs_4624");
 ?>
